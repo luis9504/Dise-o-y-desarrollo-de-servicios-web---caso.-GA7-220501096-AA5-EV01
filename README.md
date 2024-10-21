@@ -1,6 +1,5 @@
 # Login con PHP y SQL
-
-Ejemplo básico para la aplicación de tareas de registro/acceso mediante la recogida de datos por un formulario, su introducción en una base de datos en SQL y su procesamiento con PHP. Se trata de un ejemplo básico, de estudio, creado con la menor cantidad de líneas de código, para facilitar su inclusión en cualquier proyecto, siendo esta la base de su funcionamiento.
+En este apartado se describe la actividad solicitada para la aplicación de tareas de registro/acceso mediante la recogida de datos por un formulario, su introducción en una base de datos en SQL y su procesamiento con PHP. Se trata de un ejemplo básico, de estudio, creado con la menor cantidad de líneas de código, para facilitar su inclusión en cualquier proyecto, siendo esta la base de su funcionamiento.
 
 ### Gestión de base de datos en SQL
 
@@ -37,8 +36,8 @@ header('Location: index.php');
 
 Posteriormente se puede cerrar la sesión por medio del botón *Cerrar sesión*, el cual redirige a un archivo *logout.php* donde se destruye la sesión y se redirige al usuario a la página principal.
 
-#### Ejemplo de uso
+#### Proyecto
 
-A continuación se puede ver un ejemplo de uso de la web. Se ha hecho un recorrido desde el registro, acceso (con error), navegación por la web así como el cierre de sesión o la persistencia de las sesiones mientras se navega por la web.
+A continuación se puede ver un recorrido desde el registro, acceso (con error), navegación por la web así como el cierre de sesión o la persistencia de las sesiones mientras se navega por la web.
 
 ![Uso](https://media.giphy.com/media/da1SvGvPtYa5MEjeMd/giphy.gif)
